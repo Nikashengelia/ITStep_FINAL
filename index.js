@@ -6,10 +6,10 @@ function showAll() {
   var hiddenImgs = document.querySelectorAll('.image-container.hidden img');
   for (var i = 0; i < hiddenImgs.length; i++) {
     hiddenImgs[i].parentNode.classList.remove('hidden');
-    // Create a new img element and set its source
+   
     var newImg = document.createElement("img");
     newImg.src = "new-image.jpg";
-    // Append the new img element to the toursContainer
+ 
     toursContainer.appendChild(newImg);
   }
 }
@@ -27,4 +27,11 @@ function showAllActivities() {
     offCards[i].classList.remove("activities-off1");
   }
   document.querySelector(".activities-button").style.display = "none";
+}
+function goToActivity() {
+
+  window.location.href = "activities.html";
+}
+function showAllHotels() {
+  window.location.href = "hotels.html";
 }

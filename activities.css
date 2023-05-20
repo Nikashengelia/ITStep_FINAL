@@ -1,0 +1,42 @@
+.activities-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .activities-cards img {
+    border-radius: 12px;
+  }
+  .activities-cards h4 {
+    font-size: 1.6rem;
+    
+  }
+  .activities-off1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .activities-off1 img {
+    margin-right: 20px;
+    border-radius: 12px;
+    width: 320px;
+    height: 380px;
+  }
+  
+  .act-off h4{
+    font-size: 1.6rem;
+  }
+  .section-button {
+    font-size: 1.6rem;
+    margin-top: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 4px;
+    width: 105px;
+    height: 44px;
+    background: #f6f4ff;
+    border-radius: 12px;
+    cursor: pointer;
+    /* margin-left: -6rem; */
+  }
