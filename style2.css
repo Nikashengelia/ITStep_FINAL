@@ -220,3 +220,8 @@ margin-right: 3px;
 .register {
     display: none;
   }
+  .form-box.register {
+    align-items: center;
+    text-align: center;
+   margin-left: -750px;
+  }
