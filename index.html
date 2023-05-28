@@ -80,6 +80,7 @@
         >
       </div>
       <div id="results-container"></div>
+     
       <div class="search">
         <div class="filters">
           <div class="filter">
@@ -119,26 +120,33 @@
             </div>
           </div>
         </div>
-      
-        <div class="search-button-icon" onclick="toggleSearchBox()">
-          <img src="search.svg" alt="" />
-        </div>
-      </div>
-    </main>      
-        
-        </form>
+    
         <div class="search-box" style="display: none;">
           <input type="text" id="searchInput" placeholder="Type country or city" value="">
-          <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/FFA800/cycling-mountain-bike.png" alt="" style="float: left; margin-top: 15px;" fill="currentColor"/>
-      
+          <button onclick="performSearch()">Search</button>
+          <select id="select">
+            <option value="">Any</option>
+            <option value="Sailing">Sailing</option>
+            <option value="Climbing">Climbing</option>
+            <option value="Skiing">Skiing</option>
+            <option value="Hiking">Hiking</option>
+            <option value="Running">Running</option>
+            <option value="Yoga">Yoga</option>
+            <option value="Surfing">Surfing</option>
+            <option value="Biking">Biking</option>
+            <option value="Skateboarding">Skateboarding</option>
+            <option value="Hunting">Hunting</option>
+            <option value="Fishing">Fishing</option>
+            <option value="Dancing">Dancing</option>
+          </select>
         </div>
-       
+        <div class="search-button-icon" onclick="filter()">
           <img src="search.svg" alt="" />
         </div>
       </div>
-      </div>
-    </main>      
-      
+    
+   
+    </main>
     <section class="destinations" id="destinations">
       <div class="container">
         <h2 class="section-title">Popular Destinations</h2>

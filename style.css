@@ -584,6 +584,18 @@ footer {
   width: 100%;
   object-fit: cover;
 }
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
+.search-icon {
+  cursor: pointer;
+}
 
+.search-box,
+.activity-filter {
+  display: none;
+}
 

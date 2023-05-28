@@ -39,9 +39,7 @@ var Hotels_Restaurants = [
         4,
         "$2875",
         "Diving",
-        `<p>Set in a restored 17th-century monastery, this elegant clifftop hotel overlooking the sea is 1 km from the beach and 8 km from the gardens of the Villa Rufolo.</p>
-        <p>The plush, upscale rooms come with Wi-Fi, flat-screen TVs and sea views; some have terraces. Most suites add separate living rooms, dining rooms and/or antique-style furnishings.</p>
-        <p>Breakfast is available. There is also a refined restaurant with a sea view terrace, as well as a cozy bar. Other amenities include an outdoor pool and landscaped gardens, plus a gym and a spa. There is also diving activity. Kids age 16 and older are welcome.</p>`
+        
     ),
     new Hotel(
         "Grand Hotel Tremezzo",
@@ -52,9 +50,6 @@ var Hotels_Restaurants = [
         6,
         "$1517",
         "Rafting",
-        `<p>Overlooking Lake Como, this palatial art nouveau hotel is 250 m from the Villa Carlotta museum and botanical garden.</p>
-        <p>Formal rooms offer Wi-Fi, flat-screen TVs, minibars and park or lake views; some have balconies or sitting areas. Suites include whirlpool tubs, and some have private gardens. Rooftop suites add butlers, and terraces with hot tubs. Room service is available</p>
-        <p>Breakfast is served in an elegant restaurant which has a terrace; there's also a casual trattoria, a posh bar, a beachfront bistro, and a poolside pizzeria. There is rafting activity, 3 pools, a private beach, and a marina, plus a spa, a fitness room, and a tennis court.</p>`
     ),
     new Hotel(
         "The Oberoi Udaivilas Hotel",
@@ -64,9 +59,7 @@ var Hotels_Restaurants = [
         "hotel",
         3,
         "Wingsuit surfing",
-        `<p>Set amid gardens and overlooking Lake Pichola, this luxury hotel is 2 km from both Jagdish Temple and the City Palace Museum.</p>
-        <p>Bright, elegant rooms and suites feature flat-screen TVs, free Wi-Fi, DVD players, and sitting areas, plus minibars and iPod docks. Suites add dining rooms, living rooms, and coffeemakers, as well as private pools and furnished courtyards with lake views. A 24-hour butler service is available.</p>
-        <p>Amenities include 2 upscale restaurants and a bar with lake views; private outdoor lakeside dining is available. There is also a gym, a spa, and an outdoor pool, plus a business center, meeting rooms, and wingsuit surfing activity event.</p>`
+       
     ),
     new Hotel(
         "AKA Beverly Hills Hotel",
@@ -76,7 +69,7 @@ var Hotels_Restaurants = [
         "hotel",
         5,
         "Mountain biking",
-        `<p>This upscale, extended-stay hotel in the prestigious Golden Triangle area is 8 minutes on foot from the glitzy shops on Rodeo Drive and 6 miles from Santa Monica Airport.</p>`
+        
     ),
     new Hotel(
         "Majestic Elegance",

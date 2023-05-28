@@ -164,7 +164,9 @@
   margin-top: 2rem;
   width: 200px;
 }
-
+.tours-card-content-icons {
+  margin-left: -90px;
+}
 .tours-card-content-icons {
   display: block;
   flex-direction: column;

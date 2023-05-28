@@ -1,18 +1,15 @@
-
-
-
-
 function showAll() {
   var hiddenImgs = document.querySelectorAll('.image-container.hidden img');
   for (var i = 0; i < hiddenImgs.length; i++) {
     hiddenImgs[i].parentNode.classList.remove('hidden');
-   
+
     var newImg = document.createElement("img");
     newImg.src = "new-image.jpg";
- 
+
     toursContainer.appendChild(newImg);
   }
 }
+
 function showAllHotels() {
   var offCards = document.querySelectorAll(".hotel-cards.off");
   for (var i = 0; i < offCards.length; i++) {
@@ -28,23 +25,18 @@ function showAllActivities() {
   }
   document.querySelector(".activities-button").style.display = "none";
 }
-function goToActivity() {
 
+function goToActivity() {
   window.location.href = "activities.html";
 }
+
 function showAllHotels() {
   window.location.href = "hotels.html";
 }
+
 function showAllTips() {
   window.location.href = "tips.html";
 }
-//სერჩი
-// Define an array of activities with sample data
-const activities = [
-  { category: 'Adventure', location: 'New York' },
-  { category: 'Sightseeing', location: 'Paris' },
-  // Add more activity objects here
-];
 
 // Search form submission function
 function handleSearch(event) {
@@ -90,8 +82,18 @@ const searchForm = document.getElementById('search-form');
 // Add an event listener to the search form submission
 searchForm.addEventListener('submit', handleSearch);
 
+function filter() {
+  var searchBox = document.querySelector('.search-box');
+  searchBox.style.display = searchBox.style.display === 'none' ? 'flex' : 'none';
+}
 
+function search() {
+  var locationInput = document.getElementById('location-input');
+  var selectedActivity = document.getElementById('select').value;
+  var resultsContainer = document.getElementById('results-container');
 
-
-
+  // Perform the search based on the locationInput and selectedActivity
+  // Display the results in the resultsContainer
+  // You can modify this function to suit your search functionality
+}
 
