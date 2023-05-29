@@ -1,26 +1,26 @@
+function showRegistration() {
+  var loginForm = document.getElementById("login-form");
+  var registrationForm = document.getElementById("registrationForm");
+  var registrationLink = document.getElementsByClassName("register-link")[0];
 
-function redirectToPage(page) {
-  window.location.href = "index.html";
+  loginForm.style.display = "none";
+  registrationForm.style.display = "block";
+  registrationLink.style.display = "none";
 }
-function redirectToPage2(page) {
-  window.location.href = "index.html";
+
+
+function login() {
+  var email = document.getElementById("email").value;
+  var password = document.getElementById("password").value;
+
+  // Perform your login validation here
+
+  // Dummy check (replace with your actual validation logic)
+  if (email === "shengelianikoloz23@gmail.com" && password === "nika1234") {
+    console.log("Login successful");
+    window.location.href = "index.html"; // Redirect to index.html upon successful login
+  } else {
+    console.log("Login failed");
+    // Redirect to error.html upon unsuccessful login
+  }
 }
-
-  fetch('https://kketelauri-001-site1.gtempurl.com/api/user/adduser', {
-    method: 'POST',
-    headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({ 
-        "userName": "nikoloz11",
-    "firstName": "nikoloz",
-    "lastName": "shengelia",
-    "email": "keti4@gmail.com",
-    "privateNumber": "12345678914",
-    "password": "123",
-    "active": true})
-})
-
-   .then(response => response.json())
-   .then(response => console.log(JSON.stringify(response)))

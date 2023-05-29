@@ -97,3 +97,18 @@ function search() {
   // You can modify this function to suit your search functionality
 }
 
+///სერჩი
+//აქტივობები
+function performSearch() {
+  const location = document.getElementById("searchInput").value;
+  const activity = document.getElementById("select").value;
+
+  // Generate the Google Maps search URL based on the location and activity
+  const searchUrl = `https://www.google.com/maps/search/?api=1&query=${activity}+in+${location}`;
+
+  // Open the search URL in a new window or tab
+  window.open(searchUrl, "_blank");
+}
+
+
+
